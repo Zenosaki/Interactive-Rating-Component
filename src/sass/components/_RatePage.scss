@@ -44,12 +44,12 @@
         cursor: pointer;
         &:hover{
           transition: all 0.5s ease;
-          background-color: white;
-          color: hsl(212, 16%, 21%);
+          color: hsl(216, 12%, 8%);
+          background-color: hsl(25, 97%, 53%); 
         }
         &.active {
-          color: hsl(216, 12%, 8%);
-          background-color: hsl(25, 97%, 53%);
+          background-color: white;
+          color: hsl(212, 16%, 21%);
         }
       }
     }
