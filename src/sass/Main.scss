@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+@import './components/ThankPage';
+@import './components/RatePage';
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Overpass', sans-serif;
+  user-select: none;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color:hsl(216, 12%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  main{
+    width: 380px;
+    min-height: 380px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color:hsl(212, 19%, 15%);
+  }
+}
+
+
+@media screen and (max-width:440px) {
+  *{
+    box-sizing: border-box;
+  }
+  .container{
+    width: 100%;
+    padding: 40px;
+  }
+}
